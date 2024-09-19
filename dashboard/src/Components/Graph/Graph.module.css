@@ -1,0 +1,28 @@
+.graphWrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.colorWrapper{
+    display: flex;
+    /* justify-content: baseline; */
+    margin-left: 25%;
+    p{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+.pending{
+    width: 25px;
+    height: 15px;
+    background: #D9D9D9;
+    margin-right: 10px;
+}
+.completed{
+    width: 25px;
+    height: 15px;
+    background: #91B07C;
+    margin-left: 30px;
+    margin-right: 10px;
+}

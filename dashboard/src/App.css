@@ -1,0 +1,29 @@
+.App {
+  /* display: flex; */
+  margin: 30px;
+  color: #2C384B;
+}
+@media only screen and (max-width: 768px){
+  .cardDiv{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    /* width: 20vw; */
+  }
+}
+
+@media only screen and (min-width: 769px){
+
+
+  .App {
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+  }
+  .cardDiv{
+    margin: 20px;
+    width: 20vw;
+    /* min-width: 15vw; */
+  }
+}
