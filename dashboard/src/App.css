@@ -3,7 +3,7 @@
   margin: 30px;
   color: #2C384B;
 }
-@media only screen and (max-width: 768px){
+@media (max-width: 768px){
   .cardDiv{
     display: flex;
     justify-content: center;
@@ -12,7 +12,7 @@
   }
 }
 
-@media only screen and (min-width: 769px){
+@media (min-width: 769px){
 
 
   .App {
